@@ -1,0 +1,84 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  background-image: url(../assets/40b851ce4d059d3e045128232a1ee1b0.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+img {
+  border-radius: 50%;
+  opacity: 1;
+  cursor: pointer;
+  transition: linear 500ms;
+  -webkit-transition: linear 500ms;
+  border: transparent;
+  height: 150px;
+  width: 150px;
+  margin: auto;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+img:hover {
+  border-radius: 50%;
+  opacity: 0.6;
+  transition: linear 500ms;
+  -webkit-transition: linear 500ms;
+}
+i {
+  cursor: pointer;
+  color: #fcfcfc;
+}
+.card h1 {
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  display: block;
+  padding-top: 10px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.card h2 {
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  display: block;
+  text-align: center;
+  padding-top: 3px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.posicao {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  z-index: 2;
+}
+.card {
+  cursor: pointer;
+  width: 350px;
+  height: 500px;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur(7px);
+
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition: all 0.2s;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+  box-shadow: -12px 12px 2px -1px rgba(0, 0, 0, 0.2);
+}
+.icon {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30%;
+}
+
